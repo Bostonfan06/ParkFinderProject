@@ -1,0 +1,168 @@
+/*Map*/
+#map {background-size: 100%;
+    height: 60vh;
+    text-align: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  /* Navigation CSS*/
+.menu-hover-lines {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all 0.35s ease;
+  }
+  
+  .menu-hover-lines  a {
+    padding: 0.75rem 0;
+    color: rgba(10, 10, 10, 0.5);
+    position: relative;
+    margin-left: 1rem;
+  }
+  
+  .menu-hover-lines a:first-child a {
+    margin-left: 0;
+  }
+  
+  .menu-hover-lines a.active > a {
+    background-color: transparent;
+  }
+  
+  .menu-hover-lines a:hover,
+  .menu-hover-lines a.active > a {
+    color: red;
+    transition: all 0.35s ease;
+  }
+  
+  .menu-hover-lines a:hover::before,
+  .menu-hover-lines .active a::before,
+  .menu-hover-lines a:hover::after,
+  .menu-hover-lines .active a::after {
+    width: 100%;
+  }
+
+  /* Input Buttons */
+input {background: lightgray;
+    color: black;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 10px;}
+
+
+
+#enterbtn {background: red;
+    color: white;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 0px;}
+
+/* Footer Quote*/ 
+.full-width-testimonial {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.1)), url("../images/yosemitenationalpark.jpg");
+  background-position: center;
+}
+
+.full-width-testimonial-icon .quote-path {
+  fill: none;
+  stroke: #ffae00;
+  stroke-width: 2.5192;
+  stroke-miterlimit: 10;
+}
+
+.full-width-testimonial-content,
+.full-width-testimonial-icon {
+  text-align: center;
+}
+
+.full-width-testimonial-section {
+  padding-top: 2rem;
+}
+
+.full-width-testimonial-section .full-width-testimonial-text {
+  font-weight: 300;
+  color: #ffffff;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 135px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 2.5em;
+}
+
+@media print, screen and (min-width: 40em) {
+  .full-width-testimonial-section .full-width-testimonial-text {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media print, screen and (min-width: 64em) {
+  .full-width-testimonial-section .full-width-testimonial-text {
+    padding-left: 180px;
+    padding-right: 180px;
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .full-width-testimonial-section .full-width-testimonial-text {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+}
+
+.full-width-testimonial-section .full-width-testimonial-source {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 4.5px;
+  padding-bottom: 0;
+  margin-bottom: 0.2em;
+  font-size: 1.0em;
+}
+
+.full-width-testimonial-section .full-width-testimonial-source-context {
+  display: block;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 0.8em;
+}
+
+.full-width-testimonial-section .slick-slider {
+  margin-bottom: 0px;
+}
+
+.full-width-testimonial-text,
+.full-width-testimonial-content,
+.full-width-testimonial-source,
+.full-width-testimonial-icon {
+  padding-bottom: 0rem;
+}
+
+.full-width-testimonial-content {
+  width: 100%;
+}
+
+/* LOGO */
+#logo {width: 300px;}
+  
+    
+  
+  
+  
