@@ -16,4 +16,4 @@
 
 **NOTE** 
 
-###### Our project is still in the work and will continue to update the as time goes on. Thanks for your patience. 
+###### Our project is still in the work and will continue to update as time goes on. Thanks for your patience. 
