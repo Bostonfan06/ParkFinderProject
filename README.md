@@ -12,7 +12,7 @@
 
 ###### The link to this application is below:
 
-[National Park Finder App]
+[National Park Finder App](https://bostonfan06.github.io/ParkFinderProject/)
 
 **NOTE** 
 
