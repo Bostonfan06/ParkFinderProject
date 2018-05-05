@@ -16,7 +16,7 @@ $("#enterbtn").on("click", function (event) {
     // localStorage.setItem('state', stateCode[0].value)
 
     // on click, it sends the user to 2nd landing page - (index2.0.html)
-    window.location = "index2.0.html"
+    window.location = "../ParkFinderProject/main.html"
 
     // END of click button function
 })
